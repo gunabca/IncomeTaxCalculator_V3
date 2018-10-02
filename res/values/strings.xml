@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Take Home Salary</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Welcome to the Income Tax Calculator.This Application is useful for salaried employees to calculate their monthly
+        Take Home Salary.</string>
+    <string name="newbt1">New</string>
+    <string name="vwincomename"> Total Income </string>
+    <string name="vwaftertaxname"> Income after tax </string>
+    <string name="vwsalarypmname"> Salary Per Month</string>
+    <string name="btchecksalaryname"> Check Salary after Tax</string>
+    <string name="vwcategoryname">Category</string>
+    <string name="vwassyearname">Assessment Year</string>
+    <string name="vwdeductionsname">Deductions</string>
+    <string name="vwincpercentname">Increment%</string>
+    <string name="vwsalaftincname">Salary after Increment</string>
+    <string name="btincrementname">Check Increase</string>
+    <string name="vwincomeincname"> Estimated Increase</string>
+    <string name="btdeductionsname">Calculate Deductions</string>
+    <string name="vwinvestmentname"> INVESTMENTS U/S 80C and 80CCC capped at Rs 1.50 Lakhs</string>
+    <string name="vwotherdeductname"> Other Deductions</string>
+    <string name="vwhraname"> HRA</string>
+    <string name="vwincometaxname"> Income Tax</string>
+    <string name="btinctxcalname"> INCOME TAX(2015 2016)</string>
+    <string name="btchkincrementname"> ESTIMATE INCREMENT</string>
+    <string name="bttakehomename"> ESTIMATE TAKEHOME</string>
+    <string name="btsettingsname"> SETTINGS</string>
+        <string name="vwtotalname"> Total Deductions</string>
+    
+    
+    
+          <string name="tvotaxname"> Tax ! </string>
+    
+    
+    
+       <string name="tvoincaftertaxname"> Net Income </string>
+       
+       
+             <string name="tvodeductionsname"> Deductions </string>
+        <string name="tvoincomename"> Total Income </string>
+        
+         <string name="btochecktaxname"> Check your Tax</string>
+        
+         
+         
+       <string name="tvocategoryname">Choose Category</string>
+             <string name="vwincincomename"> Income Increase</string>
+         <string name="vwsalaryafterincname"> Estimated Salary after Increase</string>
+       
+       
+       <string name="viewafterinctaxinc"> Net Income after Tax</string>
+</resources>

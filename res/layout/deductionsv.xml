@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2.0"
+         >
+
+        <TextView
+            android:id="@+id/investment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vwinvestmentname"
+            android:layout_weight="1.0"
+             />
+
+        <EditText
+            android:id="@+id/etinvest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" 
+             android:layout_weight="1.0"
+           
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/vwotherdeduct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vwotherdeductname" />
+
+        <EditText
+            android:id="@+id/etotherdeductions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+    
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/vwhra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vwhraname" />
+
+        <EditText
+            android:id="@+id/ethra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+    
+     
+    
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginStart="10dp"
+            android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/vwtotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vwtotalname" />
+
+        <EditText
+            android:id="@+id/ettotalded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+</LinearLayout>

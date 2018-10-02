@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vwcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vwcategoryname" />
+
+        <Spinner
+            android:id="@+id/spcategory"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vwincome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vwincomename" />
+
+        <EditText
+            android:id="@+id/etincome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vwdeductions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vwdeductionsname" />
+
+        <EditText
+            android:id="@+id/etdeductions"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+    
+<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vwsalarypm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vwsalarypmname" />
+
+        <EditText
+            android:id="@+id/etsalarypm"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btchecksalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/btchecksalaryname" />
+
+
+    
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vwincpercent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vwincpercentname" />
+
+        <EditText
+            android:id="@+id/etincrpercent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vwincincome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vwincincomename" />
+
+        <EditText
+            android:id="@+id/etincincome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/vwsalaryafterinc"
+            android:layout_width="105dp"
+            android:layout_height="52dp"
+            android:text="@string/vwsalaryafterincname" />
+
+        <EditText
+            android:id="@+id/etsalafterinc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+        </EditText>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btincrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btincrementname"
+        android:layout_gravity="center"
+         />
+
+</LinearLayout>
